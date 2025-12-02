@@ -70,7 +70,7 @@ StaticMLP        y            l           m                n             o      
 * **RetrieveR2** – after a tiny MLP head learns, how well can the encoder fetch a value given its key anywhere in the sequence?
   *Measures practical token-token interaction.*
 * **Jacobian stats** (`entropy`, `sv_min`, `sv_median`, `gini`) – local channel-capacity estimates.
-  *Flat spectra and low gini = richer representations.*
+  *Flat spectra and high gini = richer representations.*
 
 ---
 
